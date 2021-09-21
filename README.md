@@ -1,4 +1,5 @@
-This project is moved from [https://mysqlbackupnet.codeplex.com/](https://mysqlbackupnet.codeplex.com/).
+This project is a fork from https://github.com/MySqlBackupNET/MySqlBackup.Net and should not be long lived.
+The main target is to experiment a version supporting the MysqlConnector instead of Mysql.Data legacy provider.
 
 # MySqlBackup.Net
 

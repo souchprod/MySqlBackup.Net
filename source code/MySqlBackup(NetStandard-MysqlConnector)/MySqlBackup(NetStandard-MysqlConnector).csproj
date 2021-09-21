@@ -1,0 +1,36 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <AssemblyName>MySqlBackup</AssemblyName>
+    <RootNamespace>MySql.Data.MySqlClient</RootNamespace>
+    <Product>MySqlBackup.NET.MysqlConnector</Product>
+    <PackageId>MySqlBackup.NET.MysqlConnector</PackageId>
+    <Version>2.3.4.2</Version>
+    <Authors>JeanRessouche</Authors>
+    <Copyright>Public Domain</Copyright>
+    <PackageLicenseUrl></PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/souchprod/MySqlBackup.Net</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/souchprod/MySqlBackup.Net</RepositoryUrl>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Company>Souchprod</Company>
+    <Description>Fork using MySqlDataProvider instead of the legacy Mysql.Data connectior.
+A tool by Adriancs to backup and restore MySQL database in C#/VB.NET/ASP.NET.</Description>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <WarningLevel>0</WarningLevel>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Properties\**" />
+    <EmbeddedResource Remove="Properties\**" />
+    <None Remove="Properties\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MySqlConnector" Version="1.3.12" />
+  </ItemGroup>
+
+</Project>
