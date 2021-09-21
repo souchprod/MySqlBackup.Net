@@ -7,6 +7,10 @@ A tool to backup and restore MySQL database in C#/VB.NET/ASP.NET.
 
 Article at [CodeProject.com](http://www.codeproject.com/Articles/256466/MySqlBackup-NET)
 
+## NuGet
+
+https://www.nuget.org/packages/MySqlBackup.NET.MysqlConnector/2.3.4.2
+
 ## Donation to This Project
 
 [Stripe Donate](https://buy.stripe.com/dR6aIgawrbUW57GeUU)
